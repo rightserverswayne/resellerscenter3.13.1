@@ -1,0 +1,29 @@
+{
+  "database":{
+    "tables":[
+        "ResellersCenter_BrandedInvoices",
+        "ResellersCenter_Documentations",
+        "ResellersCenter_EmailTemplates",
+        "ResellersCenter_Groups",
+        "ResellersCenter_GroupsContents",
+        "ResellersCenter_GroupsContentsPricing",
+        "ResellersCenter_GroupsContentsSettings",
+        "ResellersCenter_InvoiceItems",
+        "ResellersCenter_Invoices",
+        "ResellersCenter_Logs",
+        "ResellersCenter_PaymentGateways",
+        "ResellersCenter_PaymentGatewaysLogs",
+        "ResellersCenter_Resellers",
+        "ResellersCenter_ResellersClients",
+        "ResellersCenter_ResellersPricing",
+        "ResellersCenter_ResellersProfits",
+        "ResellersCenter_ResellersServices",
+        "ResellersCenter_ResellersSettings",
+        "ResellersCenter_ResellersTickets",
+        "ResellersCenter_SessionStorage",
+        "ResellersCenter_Transactions"
+    
+    ]
+
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "uniqueMenuItemName_ResellerCenter",
+  "options": {
+    "name": "ResellersCenter",
+    "attributes": {
+      "class": "mg-class-place-holder"
+    },
+    "icon" : "",
+    "label" : "resellerarea",
+    "rawLabel": "",
+    "uri" : "index.php?m=ResellersCenter",
+    "order" : "99"
+  }
+}

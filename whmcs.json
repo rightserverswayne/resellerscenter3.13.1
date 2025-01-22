@@ -1,0 +1,31 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "ResellersCenter",
+  "license": "proprietary",
+  "category": "domains",
+  "description": {
+    "name": "Resellers Center",
+    "tagline": "Allow resellers to offer your products under own brand, manage acquired customers, earn profit for each sale plus and more.",
+    "long": "Resellers Center For WHMCS will empower your resellers to handle acquired customers and generated sales in your system. It is through your resellers that end clients will be able to obtain products, addons and domains directly from you! The module features a flexible management model based on reseller groups. Each group you create can gain a diverse set of reselling permissions applicable to store branding, payment gateways, payouts' calculation methods, and other conditions. You will be able to track the sales progress statistics, as well as draw up multiple variants of documentation for resellers. Importantly, you will not need to be involved in any of reselling activities directly – the resellers alone can offer promo codes, handle acquired purchases, or even respond in tickets. The genius of Resellers Center For WHMCS lies also in the choice between two reliable invoicing formulas. The first one will permit the resellers to configure independent payment gateways, issue customized invoices for end clients, and collect the money in a direct manner. Alternatively, you can receive payments settled by end clients in full, and then transfer payouts to your resellers either manually or automatically."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "marketplace": {
+    "url": "https:\/\/marketplace.whmcs.com\/product\/1398"
+  },
+  "support": {
+    "homepage": "https://www.modulesgarden.com/products/whmcs/resellers-center",
+    "learn_more": "https://www.modulesgarden.com/products/whmcs/resellers-center#features",
+    "support_url": "https://www.modulesgarden.com/support",
+    "docs_url": "https://www.docs.modulesgarden.com/Resellers_Center_For_WHMCS"
+
+  },
+  "authors": [
+    {
+      "name": "ModulesGarden",
+      "homepage": "https:\/\/www.modulesgarden.com\/"
+    }
+  ]
+}

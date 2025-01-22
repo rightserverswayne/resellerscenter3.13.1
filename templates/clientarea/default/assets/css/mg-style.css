@@ -1,0 +1,404 @@
+.mg-wrapper .nav-menu{
+    background-color: #f5f5f5;
+    height: 50px;
+}
+.mg-wrapper .nav-menu a:hover{
+    background-color: #fcfcfc !important;
+}
+.mg-wrapper .nav-menu .active{
+    background-color: #fcfcfc !important;
+}
+
+.mg-wrapper #MGAlerts{
+    margin: 15px;
+}
+#MGLoader{
+    background-color:  rgba(0, 0, 0, 0.1);
+    position:absolute;
+    top:0;
+    left: -30%;
+    top: -30%;
+    width:160%;
+    height:130%;
+    z-index: 60000;
+}
+#MGLoader img{
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-left: -150px;
+}
+
+.mg-wrapper .row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mg-wrapper .help-inline {
+    display: inline;
+    font-weight: normal;
+    color: #737373;
+}
+
+.mg-wrapper .ticketReply textarea {
+    height: 200px;
+    margin-bottom: 5px;
+}
+.mg-wrapper .ticketReply input {
+    margin-left: 5px;
+}
+
+.mg-wrapper .ticket {
+    margin-bottom: 20px;
+    padding-right: 0px;
+}
+.mg-wrapper .ticket-reply .message > p {
+    line-height: 18px !important;
+}
+
+.mg-wrapper .current {
+    background-color: rgb(220, 236, 255);
+}
+.mg-wrapper .ticket-reply > .user i {
+    font-size: 35px !important;
+}
+.mg-wrapper .ticket-reply > .user {
+    font-size: 20px;
+}
+.mg-wrapper .ticket-status .Open {
+    color:#779500;
+}
+.mg-wrapper .ticket-status .Answered {
+    color:#000000
+}
+.mg-wrapper .ticket-status .Customer-Reply {
+    color:#ff6600
+}
+.mg-wrapper .ticket-status .OnHold {
+    color:#224488
+}
+.mg-wrapper .ticket-status .InProgress {
+    color:#cc0000
+}
+.mg-wrapper .ticket-status .Closed {
+    color:#888888
+}
+.mg-wrapper .tikcet-subject {
+    word-break: break-all;
+    word-wrap: break-word;
+    margin-left: 20px !important; 
+}
+
+.mg-wrapper .logo-container {
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: #ccc; 
+    min-height: 70px; 
+    min-width: 200px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.mg-wrapper .invoiceLogo-container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    min-height: 70px;
+    min-width: 200px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.mg-wrapper .with-tabs {
+    margin-left: 30px;
+}
+
+.mg-wrapper .no-margin-bottom {
+    margin-bottom: 0px;
+}
+.mg-wrapper .text-align-left {
+    text-align: left !important;
+}
+
+.mg-wrapper .table-fixed-cols {
+    table-layout: fixed;
+    word-wrap:break-word;
+}
+
+.mg-wrapper .btn {
+    margin: 2px !important; 
+}
+
+.mg-wrapper .icon-in-button {
+    width: 12px;
+}
+
+.mg-wrapper .close span {
+    font-size: 25px;
+    line-height: 0px;
+}
+
+.mg-wrapper .awaiting-reseller {
+    background-color: #ffea97;
+}
+.mg-wrapper .awaiting-reseller:hover {
+    background-color: #ffea97;
+}
+.mg-wrapper #RCConfigGeneral label {
+    padding-top: 8px;
+}
+.mg-wrapper #RCConfigPayments label {
+    padding-top: 10px;
+}
+.mg-wrapper #RCInvoiceEdit label {
+    padding-top: 10px;
+}
+.mg-wrapper .box {
+    padding: 0px !important;
+}
+.mg-wrapper .billingcycle .row > div {
+    line-height: 33px;
+}
+.mg-wrapper .dataTables_info{
+    color: #333;
+}
+.mg-wrapper .merge-fields .caption span,
+.mg-wrapper .merge-fields .row h4,
+.mg-wrapper .merge-fields dl
+{
+    margin-left: 10px;
+}
+
+.mg-wrapper .rc-invoice-summary
+{
+    background-color: #EEE;
+}
+.mg-wrapper .rc-invoice-summary td:nth-child(1)
+{
+    text-align: right;
+}
+.mg-wrapper .invoice-status {
+    text-transform: uppercase;
+}
+.mg-wrapper .invoice-status-Paid {
+    color: #779500;
+}
+.mg-wrapper .invoice-status-Unpaid {
+    color: #c00;
+}
+.mg-wrapper .invoice-status-Cancelled {
+    color: #888;
+}
+.mg-wrapper .dataTables_wrapper .dataTables_length {
+    background-color: #FFF;
+    font-size: .8em;
+    color: #888;
+}
+.mg-wrapper .dataTables_wrapper .dataTables_info {
+    padding: 9px 10px !important;
+}
+.mg-wrapper .dataTables_processing {
+    border: none !important;
+    background: url('../img/loading_icon.gif') 50% !important;
+    background-size: 40px 40px !important; 
+    background-repeat: no-repeat;
+    top: 45% !important;
+    left: 54% !important;
+    width: 40px !important;
+    height: 40px !important;
+    box-shadow: none;
+    z-index: 1;
+}
+
+.mg-wrapper #RCDashboard p {
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+.mg-wrapper #ClientsActionPanel .action-row {
+    margin-bottom: 10px;
+}
+
+.mg-wrapper #RCPromotionDetails .select2-selection--multiple {
+    min-height: 50px;
+}
+.mg-wrapper #RCPromotionDetails .form-label {
+    margin-top: 11px;
+}
+.mg-wrapper #RCPromotionDetails .bootstrap-switch {
+    margin-bottom: 3px;
+}
+.mg-wrapper #RCPromotionDetails .checkbox-switch-label {
+    margin-top: 5px;
+}
+.mg-wrapper .text-grey {
+    color: #777;
+}
+.mg-wrapper #RCPricingProductsEdit label,
+.mg-wrapper #RCPricingAddonsEdit label
+{
+                  padding-top: 15px;
+}
+.mg-float-left {
+    float: left;
+}
+.mg-display-block {
+    display: block;
+}
+.mg-padding-top-5 {
+    padding-top: 5px;
+}
+.mg-ticket-reply {
+    margin: 10px 0;
+    padding: 0;
+    border: 1px solid #efefef;
+    background-color: #fff;
+}
+.mg-ticket-reply .user {
+    font-size: 20px;
+    padding: 5px 0;
+    background-color: #f8f8f8;
+}
+.mg-ticket-reply .user i {
+    padding: 2px 15px;
+}
+.mg-ticket-reply.staff {
+    border: 1px solid #cce4fc;
+}
+.mg-ticket-reply.staff .user
+{
+    background-color: #f2f9ff;
+}
+.mg-ticket-reply .date {
+    float: right;
+    padding: 8px 10px;
+    font-size: .8em;
+}
+.mg-ticket-reply .message {
+    padding: 12px 15px;
+}
+
+.productLinkContainer span.generatedLinkField {
+    display: inline-block;
+}
+
+.productGroupLinkContainer span {
+    display: inline-block;
+}
+
+.productLinkContainer button {
+    width: 35px;
+    height: 30px;
+}
+
+.productGroupLinkContainer button {
+    width: 35px;
+    height: 30px;
+}
+
+.uploadLogoButton {
+    cursor: pointer;
+}
+
+.uploadLogoButton:hover {
+    color: #0081FF;
+}
+
+.copyCartUrlBtn {
+    display: inline;
+}
+
+.copyCartUrlBtn span{
+    display: inline;
+    font-size: 10px;
+    color: green;
+}
+
+.copyCartUrlBtn p{
+    display: inline;
+}
+
+td.dataTables_initInfo {
+    text-align: center;
+}
+
+.creditInfoItem {
+    font-size: 20px;
+    border: 1px solid #dee2e6 !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.creditInfoItem .creditInfoItemLimit {
+    color: #2732d7;
+}
+
+.creditInfoItem .creditInfoItemUsage {
+    color: #0fb7bb;
+}
+
+.creditInfoItem .creditInfoItemLeft {
+    color: #20b210;
+}
+
+.creditInfoItem .creditInfoItemInvoices {
+    color: #ef1515;
+}
+
+.creditInfoItemTitle {
+    font-size: 14px;
+    color: #5e747a;
+}
+
+.creditOrders {
+    font-size: 16px;
+    color: #212529;
+    border-top: 2px solid #dee2e6 !important;
+    border-bottom: 2px solid #dee2e6 !important;
+}
+
+.inputsForClone {
+    display: none;
+}
+
+i.addReminder {
+    font-size: 18px !important;
+    color: darkgreen;
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+i.addReminder:hover {
+    color: #369d36;
+}
+
+div.removeReminderBtnContainer {
+    display: flex;
+    align-items: center;
+}
+
+i.removeReminder {
+    font-size: 16px !important;
+    color: darkred;
+    cursor: pointer;
+}
+
+i.removeReminder:hover {
+    color: red;
+}
+
+#remindersGroup > span.noRemindersMessage {
+    color: lightgray;
+    display: table;
+    margin: 20px auto;
+}
+
+@media(max-width: 767px) {
+    .mg-wrapper .nav-menu { height: auto; margin: 7.5px 0; }
+    .nav-menu .navbar-nav li { display: inline-block; }
+    .box-body .dataTables_wrapper { overflow-x: scroll; }
+    .box-body .dataTables_wrapper .table { width: 1000px!important; }
+    .table-bottom > .row div[class^="col-"] { float: none; max-width: 100%; flex: 100%; }
+    .table-bottom > .row .dataTables_paginate { float: none; }
+}

@@ -1,0 +1,55 @@
+<?php
+namespace MGModule\ResellersCenter\models\whmcs;
+use \Illuminate\Database\Eloquent\model as EloquentModel;
+
+
+/**
+ * Description of Product
+ *
+ * @author Paweł Złamaniec <pawel.zl@modulesgarden.com>
+ */
+class Product extends EloquentModel
+{
+    /**
+     * Table name
+     *
+     * @var string
+     */
+    protected $table = 'tblproducts';
+
+    /**
+     * Eloquent guarded parameters
+     * @var array
+     */
+    protected $guarded = array('id');
+
+    /**
+     * Eloquent fillable parameters
+     * @var array
+     */
+    protected $fillable = array();
+
+    /**
+     * Indicates if the model should soft delete.
+     *
+     * @var bool
+     */
+    protected $softDelete = false;
+    
+    /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = false;
+    
+    public function group()
+    {
+        return $this->belongsTo("MGModule\ResellersCenter\models\whmcs\ProductGroup", "gid");
+    }
+    
+    public function upgrades()
+    {
+        return $this->hasMany("MGModule\ResellersCenter\models\whmcs\ProductUpgrade", "product_id");
+    }
+}

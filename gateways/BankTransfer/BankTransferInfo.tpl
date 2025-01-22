@@ -1,0 +1,4 @@
+<p>
+    {$instruction}
+    {$refrencenumber}
+</p>

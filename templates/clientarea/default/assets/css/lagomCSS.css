@@ -1,0 +1,30 @@
+.bootstrap-switch-on .bootstrap-switch-label {
+  background: #2368AD !important;
+  height: 35px !important;
+}
+
+.bootstrap-switch-off .bootstrap-switch-label {
+  background: #dcdee2 !important;
+  height: 35px !important;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-default {
+  background: #2368AD !important;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-default {
+  background: #dcdee2 !important;
+}
+
+.bootstrap-switch {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+
+.bootstrap-switch {
+  border-radius: 12px !important;
+}
+
+.mg-wrapper .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #FFFFFF !important;
+}

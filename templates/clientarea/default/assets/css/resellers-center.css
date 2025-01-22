@@ -1,0 +1,144 @@
+/* 
+    Created on : Jul 15, 2016, 11:55:58 AM
+    Author     : Paweł Złamaniec <pawel.zl@modulesgarden.com>
+*/
+.mg-wrapper .modal-dialog {
+    top: 0px;
+}
+.modal-backdrop {
+    opacity:0.2 !important;
+}
+
+.mg-wrapper .table > thead > tr > th {
+    font-weight: bold;
+}
+.mg-wrapper .group-list-table {
+    margin-top: 0px !important;
+    width: 100% !important;
+}
+.mg-wrapper .group-list-table tbody td {
+    font-weight: bold;
+    cursor: pointer;
+    border: none !important;
+}
+.mg-wrapper .group-list-table tbody tr:hover {
+    background-color: #fdbab7;
+    color: #fff;
+}
+.mg-wrapper .group-list-table tbody tr .active:hover {
+    background-color: #fdbab7;
+    color: #fff;
+}
+.mg-wrapper .group-list-table .active td {
+    color: #FFF;
+    background-color: #fe4a42 !important;
+}
+.mg-wrapper .group-list-table tbody th {
+    border: none !important;
+}
+
+.mg-wrapper .groupSearch .input-group {
+    margin: 5px;
+}
+.mg-wrapper .panel {
+    box-shadow: none !important;
+}
+.mg-wrapper .panel-heading .rc-actions {
+    margin-top: -4px;
+}
+.mg-wrapper .rc-actions a {
+    margin: 1px;
+    padding: 2px 6px 2px 6px; 
+    height: 27px; 
+    width: 27px;
+}
+.mg-wrapper .childRow {
+    background-color: #f5f5f5;
+}
+.mg-wrapper label {
+    padding-top: 10px;
+}
+
+/* Resellers Table */
+.mg-wrapper .reseller-list-table {
+    margin-top: 0px !important;
+    width: 100% !important;
+}
+.mg-wrapper .reseller-list-table tbody td {
+    font-weight: bold;
+    cursor: pointer;
+    border: none !important;
+}
+.mg-wrapper .reseller-list-table tbody tr:hover {
+    background-color: #fdbab7;
+    color: #fff;
+}
+.mg-wrapper .reseller-list-table tbody th {
+    border: none !important;
+}
+.mg-wrapper .reseller-list-table .dataTables_empty {
+    font-weight: bold;
+}
+.mg-wrapper #mainDetails .col-md-6 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.mg-wrapper #mainDetails label {
+    line-height: 32px;
+}
+.mg-wrapper #mainDetails .col-md-6:hover {
+    background-color: #f5f5f5;
+}
+.mg-wrapper #mainDetails .row .rc-actions a {
+    margin: -1px;
+}
+.mg-wrapper #settings .help-block {
+    margin-top: 11px;
+}
+.mg-wrapper #MGPageConfiguration .help-block {
+    margin-top: 0px;
+}
+.mg-wrapper #MGPageConfiguration .row {
+    margin-bottom: 5px;
+}
+.mg-wrapper #settings .checkbox-switch-label {
+    padding-top: 11px;
+}
+.mg-wrapper #settings .checkbox-container {
+    line-height:  40px;
+}
+.mg-wrapper .in-line-label {
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+.mg-wrapper .payByCredits {
+    padding: 3.5px 5.5px;
+}
+.mg-wrapper .btn {
+    margin: 2px !important; 
+}
+.mg-wrapper .icon-in-button {
+    width: 12px;
+}
+.mg-wrapper li.has-error > a {
+    background-color: #fdbab7;
+}
+.mg-wrapper .panel-default > .panel-heading.has-error  {
+    background-color: #fdbab7;
+}
+.mg-wrapper .settings .btn.btn-icon-only > i  {
+    padding-top: 1px;
+}
+.mg-wrapper #documentationDetails .row {
+    margin-bottom: 20px;
+}
+.mg-wrapper .invoice-checkbox {
+    height: 16px; 
+    width: 16px; 
+    margin-left: 10px !important;
+}
+.mg-wrapper .tooltip {
+    position:fixed;
+    z-index: 1000;
+}
+
