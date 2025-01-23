@@ -59,7 +59,7 @@
                     <table id="productsTable" class="table table-hover" width="100%">
                         <thead>
                             <th>{$MGLANG->T('settings','products','table','product_name')}&nbsp;&nbsp;</th>
-                            <th>{$MGLANG->T('settings','products','table','product_group')}&nbsp;&nbsp;</th>
+                            <th>{$MGLANG->T('settings','products','table','product_name')}&nbsp;&nbsp;</th>
                             <th>{$MGLANG->T('settings','products','table','payment_type')}&nbsp;&nbsp;</th>
                             <th>{$MGLANG->T('settings','products','table','counting_type')}&nbsp;&nbsp;</th>
                             <th>{$MGLANG->T('settings','products','table','profit_percent')}&nbsp;&nbsp;</th>
