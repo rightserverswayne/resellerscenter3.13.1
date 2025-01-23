@@ -510,7 +510,7 @@ var RC_SettingsProducts = {
                 },
                 columns: [
                     { data: "product_name",   orderable: true, sortable: false, targets: 0 },
-                    { data: "product_group",   orderable: true, sortable: false, targets: 0 }, // Added product_group column
+                    { data: "product_group",   orderable: true, sortable: false, targets: 0 },
                     { data: "payment_type",   orderable: true, sortable: false, targets: 0 },
                     { data: "counting_type",  orderable: true, sortable: false, targets: 0 },
                     { data: "profit_percent", orderable: true, sortable: false, targets: 0 },
