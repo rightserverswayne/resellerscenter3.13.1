@@ -207,8 +207,8 @@ $_LANG['addonAA']['groups']['button']['editGroupNameTooltip'] = 'Edit Group';
 //Products
 $_LANG['addonAA']['groups']['settings']['products']['title'] = 'Products';
 $_LANG['addonAA']['groups']['settings']['products']['table']['id'] = 'ID';
-$_LANG['addonAA']['groups']['settings']['products']['table']['product_name'] = 'Product Name';
-$_LANG['addonAA']['groups']['settings']['products']['table']['product_group'] = 'Product Group';
+$_LANG['addonAA']['groups']['settings']['products']['table']['product_name'] = 'Product e';
+$_LANG['addonAA']['groups']['settings']['products']['table']['product_group'] = 'Product Name';
 $_LANG['addonAA']['groups']['settings']['products']['table']['payment_type'] = 'Billing Cycle';
 $_LANG['addonAA']['groups']['settings']['products']['table']['counting_type'] = 'Calculation Method';
 $_LANG['addonAA']['groups']['settings']['products']['table']['profit_percent'] = 'Percent Rate';
