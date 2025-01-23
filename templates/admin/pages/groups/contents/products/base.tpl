@@ -63,10 +63,21 @@
                             <th>{$MGLANG->T('settings','products','table','payment_type')}&nbsp;&nbsp;</th>
                             <th>{$MGLANG->T('settings','products','table','counting_type')}&nbsp;&nbsp;</th>
                             <th>{$MGLANG->T('settings','products','table','profit_percent')}&nbsp;&nbsp;</th>
-                            <th>{$MGLANG->T('settings','products','table','profit_value')}&nbsp;&nbsp;</th>
+                            <th>{$MGLANG->T('settings','products','table','profit_rate')}&nbsp;&nbsp;</th>
                             <th>{$MGLANG->T('settings','products','table','actions')}&nbsp;&nbsp;</th>
                         </thead>
                         <tbody>
+                            {foreach from=$products item=product}
+                            <tr>
+                                <td>{$product.product_name}</td>
+                                <td>{$product.product_group}</td>
+                                <td>{$product.payment_type}</td>
+                                <td>{$product.counting_type}</td>
+                                <td>{$product.profit_percent}</td>
+                                <td>{$product.profit_rate}</td>
+                                <td><!-- ...existing code... --></td>
+                            </tr>
+                            {/foreach}
                         </tbody>
                     </table>
                 </div>

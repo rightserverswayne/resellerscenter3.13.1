@@ -302,6 +302,7 @@ class Contents extends AbstractController
 
         $format = array(
             "{$type}_name"   => array("link" => array("relid", $type)),
+            "product_group"  => array("default" => Lang::T("empty", "value")),
             "type"           => array("lang" => array("{$type}s", 'table')),
             "payment_type"   => array("lang" => array("{$type}s", 'table')),
             "counting_type"  => array("lang"    => array('counting', 'option'),

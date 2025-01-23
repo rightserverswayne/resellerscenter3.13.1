@@ -272,7 +272,13 @@ class Contents extends AbstractRepository
      */
     public function getContentDataForTable($type, $groupid, $dtRequest)
     {
-        $query = DB::table("ResellersCenter_GroupsContents");
+        $query = DB::table('tblcontents')
+            ->select('tblcontents.id', 'tblcontents.relid', 'tblcontents.type', 'tblcontents.payment_type', 'tblcontents.counting_type', 'tblcontents.profit_percent', 'tblcontents.profit_rate', 'tblproductgroups.name as product_group')
+            ->join('tblproducts', 'tblcontents.relid', '=', 'tblproducts.id')
+            ->join('tblproductgroups', 'tblproducts.gid', '=', 'tblproductgroups.id')
+            ->where('tblcontents.group_id', $groupid)
+            ->where('tblcontents.type', $type);
+
         if($type == Contents::TYPE_PRODUCT) 
         {
             $query->leftjoin('tblproducts', function($join) {
