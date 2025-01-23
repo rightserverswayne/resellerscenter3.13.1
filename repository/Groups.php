@@ -79,4 +79,22 @@ class Groups extends AbstractRepository
         return $settings;
     }
     
+    public function getContentDataForTable($type, $groupid, $dtRequest)
+    {
+        // ...existing code...
+        $query = Capsule::table('tblproducts')
+            ->select(
+                'tblproducts.id as relid',
+                'tblproducts.name as product_name',
+                'tblproductgroups.name as product_group', // Join and select product_group
+                'tblproducts.paytype as payment_type',
+                'tblproducts.gid as group_id',
+                'tblproducts.hidden as hidden'
+            )
+            ->join('tblproductgroups', 'tblproducts.gid', '=', 'tblproductgroups.id') // Join with tblproductgroups
+            ->where('tblproducts.hidden', '=', 0)
+            ->where('tblproducts.type', '=', $type)
+            ->where('tblproducts.groupid', '=', $groupid);
+        // ...existing code...
+    }
 }
