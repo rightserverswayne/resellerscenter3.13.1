@@ -281,11 +281,15 @@ var ResellersCenter_PricingProducts =
                 { data: "name",   orderable: true, sortable: false, targets: 0 },
                 { data: "billingcycles",  orderable: false, sortable: false, targets: 0 },
                 { data: "actions",        orderable: false, sortable: false, targets: 0 },
+                { data: "group", orderable: true, sortable: false, targets: 0 }
               ],
             columnDefs: [
-                { width: "25%", targets: 0 },
-                { width: "60%", targets: 1 },
-                { width: "15%", targets: 2 }
+                { width: "20%", targets: 0 }, // Adjust the width as needed
+                { width: "20%", targets: 1 },
+                { width: "20%", targets: 2 },
+                { width: "20%", targets: 3 },
+                { width: "20%", targets: 4 },
+                { width: "20%", targets: 5 }
               ],
             bPaginate: true,
             sDom: 'tr<"table-bottom"<"row"<"col-sm-4"L><"col-sm-3 text-center"i><"col-sm-5"p>>>',

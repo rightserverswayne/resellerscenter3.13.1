@@ -24,6 +24,7 @@
         <table class="table table-hover table-fixed-cols">
             <thead>
                 <th>{$MGLANG->T('products','table','product')}&nbsp;&nbsp;</th>
+                <th>{$MGLANG->T('products','table','group')}</th>
                 <th>{$MGLANG->T('products','table','enabledbillingcycles')}&nbsp;&nbsp;</th>
                 <th>{$MGLANG->T('products','table','actions')}&nbsp;&nbsp;</th>
             </thead>

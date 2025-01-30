@@ -216,6 +216,10 @@ class ResellersPricing extends AbstractRepository
             $join->on("tblproducts.id", "=", "ResellersCenter_ResellersPricing.relid");
         });
         
+        $query->leftJoin("tblproductgroups", function($join){
+            $join->on("tblproductgroups.id", "=", "tblproducts.gid");
+        });
+        
         //Required where
         $query->where("ResellersCenter_ResellersPricing.reseller_id", $resellerid);
         $query->where("ResellersCenter_ResellersPricing.type", Contents::TYPE_PRODUCT);
@@ -235,7 +239,8 @@ class ResellersPricing extends AbstractRepository
         $query->select("tblproducts.name")
               ->addSelect("ResellersCenter_ResellersPricing.type")
               ->addSelect("ResellersCenter_ResellersPricing.relid")
-              ->addSelect(DB::raw("GROUP_CONCAT(DISTINCT ResellersCenter_ResellersPricing.billingcycle ORDER BY ResellersCenter_ResellersPricing.billingcycle SEPARATOR ',' ) as billingcycles"));
+              ->addSelect(DB::raw("GROUP_CONCAT(DISTINCT ResellersCenter_ResellersPricing.billingcycle ORDER BY ResellersCenter_ResellersPricing.billingcycle SEPARATOR ',' ) as billingcycles"))
+              ->addSelect("tblproductgroups.name as group");
         
         $query->orderBy($dtRequest->columns[$dtRequest->orderBy], $dtRequest->orderDir);
         $query->take($dtRequest->limit)->skip($dtRequest->offset);
