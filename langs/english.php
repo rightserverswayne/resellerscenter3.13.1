@@ -2240,3 +2240,4 @@ $_LANG['consolidatedInvoices']['errorMessages']['dayOfMonthMustBeInRange'] = "Av
 
 //General messages
 $_LANG['general']['invoices']['invoiceDeleted'] = "The invoice has been deleted successfully";
+$_LANG['addonCA']['pricing']['products']['table']['group'] = 'Product Group';
