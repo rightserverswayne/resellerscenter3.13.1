@@ -278,9 +278,14 @@ class Contents extends AbstractRepository
             $query->leftjoin('tblproducts', function($join) {
                 $join->on("tblproducts.id","=", "ResellersCenter_GroupsContents.relid");
             });
-                
+             
+            $query->leftJoin("tblproductgroups", function($join){
+                $join->on("tblproductgroups.id", "=", "tblproducts.gid");
+            });
+
             $query->select(DB::raw("ResellersCenter_GroupsContents.*"),
                 "tblproducts.name as {$type}_name",
+                "tblproductgroups.name as product_group",
                 "tblproducts.paytype as payment_type"
             );
             
