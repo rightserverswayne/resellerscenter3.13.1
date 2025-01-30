@@ -207,8 +207,8 @@ $_LANG['addonAA']['groups']['button']['editGroupNameTooltip'] = 'Edit Group';
 //Products
 $_LANG['addonAA']['groups']['settings']['products']['title'] = 'Products';
 $_LANG['addonAA']['groups']['settings']['products']['table']['id'] = 'ID';
-$_LANG['addonAA']['groups']['settings']['products']['table']['product_name'] = 'Product e';
-$_LANG['addonAA']['groups']['settings']['products']['table']['product_group'] = 'Product Name';
+$_LANG['addonAA']['groups']['settings']['products']['table']['product_name'] = 'Product Name';
+$_LANG['addonAA']['groups']['settings']['products']['table']['product_group'] = 'Product Group';
 $_LANG['addonAA']['groups']['settings']['products']['table']['payment_type'] = 'Billing Cycle';
 $_LANG['addonAA']['groups']['settings']['products']['table']['counting_type'] = 'Calculation Method';
 $_LANG['addonAA']['groups']['settings']['products']['table']['profit_percent'] = 'Percent Rate';
@@ -1571,6 +1571,7 @@ $_LANG['addonCA']['pricing']['products']['add']['button'] = 'Add Product';
 $_LANG['addonCA']['pricing']['products']['add']['title'] = 'Add Product Pricing';
 $_LANG['addonCA']['pricing']['products']['edit']['title'] = 'Edit Product Pricing';
 $_LANG['addonCA']['pricing']['products']['table']['product'] = 'Product';
+$_LANG['addonCA']['pricing']['products']['table']['group'] = 'Product Group';
 $_LANG['addonCA']['pricing']['products']['table']['currency'] = 'Currency';
 $_LANG['addonCA']['pricing']['products']['table']['enabledbillingcycles'] = 'Enabled Billing Cycles';
 $_LANG['addonCA']['pricing']['products']['table']['actions'] = 'Actions';
@@ -2240,4 +2241,3 @@ $_LANG['consolidatedInvoices']['errorMessages']['dayOfMonthMustBeInRange'] = "Av
 
 //General messages
 $_LANG['general']['invoices']['invoiceDeleted'] = "The invoice has been deleted successfully";
-$_LANG['addonCA']['pricing']['products']['table']['group'] = 'Product Group';
